@@ -131,12 +131,12 @@ img {
 }
 .hero {
     max-width: 1440px;
+    margin: auto;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin:auto;
 }
 .hero-header {
     text-align: center;
@@ -320,6 +320,8 @@ footer {
     display: flex;
     align-items: baseline;
     padding: 100px 0;
+    max-width: 1440px;
+    margin: auto;
 }
 .footer-div {
     margin-right: 120px;
