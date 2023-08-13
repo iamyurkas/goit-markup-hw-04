@@ -1,13 +1,13 @@
 :root {
-    --white: #FFFFFF;
-    --navyblue: #2E2F42;
     --slate: #434455;
+    --lightslate: #8e8f99;
+    --navyblue: #2E2F42;
+    --darkiris: #404bbf;
     --iris: #4D5AE5;
     --cornflower: #E7E9FC;
     --cloud: #F4F4FD;
-    --darkiris: #404bbf;
+    --white: #FFFFFF;
 }
-
 body {
     font-family: Roboto, sans-serif;
     color: var(--slate);
@@ -31,6 +31,7 @@ img {
     display: block;
 }
 .header {
+
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -53,7 +54,6 @@ img {
     margin: 0;
     padding: 0;
 }
-
 .logo,
 .logo-header,
 .logo-footer {
@@ -195,7 +195,9 @@ img {
 .proposal {
     padding-bottom: 120px;
 }
-.proposal-header {
+.proposal-header,
+.team-header,
+.cutomers-header {
     margin-bottom: 72px;
     color: var(--navyblue);
     text-align: center;
@@ -217,16 +219,6 @@ img {
 .team {
     background-color: var(--cloud);
     padding: 120px 0
-}
-
-.team-header {
-    margin-bottom: 72px;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
-    color:var(--navyblue);
 }
 .team-list{
     display: flex;
@@ -288,6 +280,34 @@ img {
 .team-svg {
     fill: var(--cloud);
 }
+.customers {
+    padding: 120px 0;
+}
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
+.customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightslate);
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customers-link:hover,
+.customers-link:focus {
+    border-color: var(--darkiris);
+    color: var(--darkiris);
+}
 .footer {
     padding: 100px 0;
     background-color: var(--navyblue);
@@ -299,9 +319,6 @@ img {
     color: var(--cloud);
     width: 264px;
 }
-
-
-
 .portfolio{
     padding-top: 96px;
     padding-bottom: 120px;
@@ -312,10 +329,6 @@ img {
     gap: 24px;
     margin-bottom: 72px;
 }
-
-
-
-
 .portfolio-button {
     padding: 12px 24px;
     background-color: var(--cloud);
@@ -330,7 +343,6 @@ img {
     display: block;
     border-radius: 4px;
 }
-
 .portfolio-button:hover,
 .portfolio-buttonn:active,
 .portfolio-button:focus {
@@ -338,7 +350,6 @@ img {
     color: var(--white);
     border: 1px solid transparent;
 }
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -353,7 +364,6 @@ img {
     border: 1px solid var(--cornflower);
     border-top: none;
 }
-
 .portfolio-header {
     font-size: 20px;
     font-weight: 500;
