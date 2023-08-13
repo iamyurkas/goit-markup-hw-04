@@ -134,6 +134,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin:auto;
 }
 .hero-header {
     text-align: center;
@@ -243,6 +244,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 .team-sn-item {
     width: 40px;
@@ -260,7 +262,7 @@ img {
 }
 .team-sn-list-link:hover,
 .team-sn-list-link:focus,
-.team-sn-list-link:active, {
+.team-sn-list-link:active {
     background-color: var(--darkiris);
 }
 .team-mate{
