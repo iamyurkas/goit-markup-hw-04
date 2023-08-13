@@ -318,6 +318,12 @@ img {
     padding: 100px 0;
     background-color: var(--navyblue);
 }
+.footer-div {
+    display: flex;
+    align-items: baseline;
+    padding: 100px 0;
+    background-color: var(--navyblue);
+}
 .footer-p {
     font-size: 16px;
     line-height: 1.5;
