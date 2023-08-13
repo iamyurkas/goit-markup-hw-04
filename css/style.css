@@ -417,7 +417,7 @@ footer {
 }
 .modal-close-svg:hover,
 .modal-close-svg:focus {
-    fill: var(--white);
+    fill: #ffffff;
 }
 .is-hidden {
     opacity: 0;
