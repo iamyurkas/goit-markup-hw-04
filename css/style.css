@@ -312,17 +312,17 @@ img {
     border-color: var(--darkiris);
     color: var(--darkiris);
 }
+footer {
+    background-color: var(--navyblue);
+}
 .footer {
     display: flex;
     align-items: baseline;
     padding: 100px 0;
-    background-color: var(--navyblue);
 }
 .footer-div {
-    display: flex;
-    align-items: baseline;
-    padding: 100px 0;
-    background-color: var(--navyblue);
+    margin-right: 120px;
+
 }
 .footer-p {
     font-size: 16px;
