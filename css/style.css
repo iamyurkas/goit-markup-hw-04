@@ -97,6 +97,7 @@ img {
 .menu-link-active::after {
     content: '';
     position: absolute;
+    width: 100%;
     left: 0;
     bottom: -1px;
     height: 4px;
@@ -315,12 +316,11 @@ img {
 }
 footer {
     background-color: var(--navyblue);
+    padding: 100px 0;
 }
 .footer {
     display: flex;
     align-items: baseline;
-    padding: 100px 0;
-    max-width: 1440px;
     margin: auto;
 }
 .footer-div {
